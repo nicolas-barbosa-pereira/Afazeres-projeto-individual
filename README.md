@@ -1,3 +1,69 @@
+# 🔵 Afazeres - Gerenciador de Tarefas
+
+O **Afazeres** é uma aplicação web completa para a gestão de tarefas pessoais, focada em produtividade e organização.  
+O projeto foi desenvolvido com uma arquitetura robusta no **Backend** e uma interface limpa e responsiva no **Frontend**.
+
+---
+
+## Funcionalidades
+
+### Autenticação Completa
+- Sistema de **Login e Registo** de utilizadores  
+- Validações manuais no backend  
+
+###  Tela de Tarefas
+- Visualização em tempo real dos afazeres do utilizador logado  
+
+###  CRUD de Tarefas
+- Criar tarefas  
+- Listar tarefas  
+- Editar tarefas  
+- Eliminar tarefas  
+- Definição de diferentes níveis de prioridade  
+
+###  Interface Dinâmica
+- Carregamento dinâmico de escolaridades via API  
+- Seleção visual de género (Radio Buttons estilizados)  
+- Modal inteligente para criação e edição  
+- Sistema de notificações personalizado  
+
+---
+
+##  Tecnologias Utilizadas
+
+###  Backend
+- **Java 21**
+- **Spring Boot 4.0.2**
+- **Spring JDBC Template** → Comunicação direta e otimizada com o banco de dados
+- **MySQL** → Armazenamento persistente de dados
+- Arquitetura em camadas:
+  - Controller
+  - Service
+  - Repository
+- Uso de **DTOs (Records)**
+
+###  Frontend
+- **HTML5 & CSS3 puros** (sem bibliotecas externas)
+- **JavaScript Vanilla**
+  - Lógica de SPA (Single Page Application)
+- Design responsivo (Mobile & Desktop)
+
+---
+
+##  Requisitos Atendidos
+
+- ✅ Entradas de texto, numéricas e de data  
+- ✅ Uso de Radio Buttons e Checkboxes  
+- ✅ Dropdown (Select) carregado dinamicamente via API  
+- ✅ Validações de campos obrigatórios  
+- ✅ Lógica de negócio implementada no Backend  
+
+---
+
+##  Autor
+
+Desenvolvido por **[Nicolas Barbosa /https://github.com/nicolas-barbosa-pereira]**  
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/4jAV28kZ)
 # Projeto Individual - Programação Web 🚀
 Este repositório contém o projeto individual desenvolvido para a disciplina de Programação Web. O objetivo é aplicar os conceitos de integração entre Front-end (Vanilla) e Back-end (Spring Boot), focando na persistência de dados e validações.
