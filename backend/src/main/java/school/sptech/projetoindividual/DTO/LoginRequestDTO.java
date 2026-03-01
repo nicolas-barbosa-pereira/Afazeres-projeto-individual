@@ -1,4 +1,3 @@
 package school.sptech.projetoindividual.DTO;
 
-public class LoginRequestDTO {
-}
+public record LoginRequestDTO(String email,String senha){}
